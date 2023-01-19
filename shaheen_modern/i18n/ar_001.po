@@ -1,0 +1,706 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* shaheen_modern
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 12:46+0000\n"
+"PO-Revision-Date: 2022-08-02 12:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: shaheen_modern
+#: model_terms:ir.ui.view,arch_db:shaheen_modern.report_followup_daily
+msgid "<span>Agent</span>"
+msgstr "الوكيل"
+
+#. module: shaheen_modern
+#: model_terms:ir.ui.view,arch_db:shaheen_modern.report_followup_daily
+msgid "<span>Camel</span>"
+msgstr "إبل"
+
+#. module: shaheen_modern
+#: model_terms:ir.ui.view,arch_db:shaheen_modern.report_followup_daily
+msgid "<span>Cows</span>"
+msgstr "بقر"
+
+#. module: shaheen_modern
+#: model_terms:ir.ui.view,arch_db:shaheen_modern.report_followup_daily
+msgid "<span>Goats</span>"
+msgstr "ماعز"
+
+#. module: shaheen_modern
+#: model_terms:ir.ui.view,arch_db:shaheen_modern.report_followup_daily
+msgid "<span>Imported State</span>"
+msgstr "الدوله المصدر إليها"
+
+#. module: shaheen_modern
+#: model_terms:ir.ui.view,arch_db:shaheen_modern.report_followup_daily
+msgid "<span>Name Of The Exporter</span>"
+msgstr "إسم الجهة"
+
+#. module: shaheen_modern
+#: model_terms:ir.ui.view,arch_db:shaheen_modern.report_followup_daily
+msgid "<span>Payment Date</span>"
+msgstr "تاريخ الدفع"
+
+#. module: shaheen_modern
+#: model_terms:ir.ui.view,arch_db:shaheen_modern.report_followup_daily
+msgid "<span>Sheep</span>"
+msgstr "ضان"
+
+#. module: shaheen_modern
+#: model_terms:ir.ui.view,arch_db:shaheen_modern.report_followup_daily
+msgid "<span>Shipping Time</span>"
+msgstr "زمن الشحن"
+
+#. module: shaheen_modern
+#: model_terms:ir.ui.view,arch_db:shaheen_modern.report_followup_daily
+msgid "<span>جدول متابعه الذبيح اليومي</span>"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__agent_id
+msgid "Agent&Num"
+msgstr "إسم ورقم الوكيل"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__amount_s
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__amount
+msgid "Amount"
+msgstr "المبلغ"
+
+#. module: shaheen_modern
+#: model:ir.model.fields.selection,name:shaheen_modern.selection__table_daily__method_py__bank
+msgid "Bank"
+msgstr "بنك"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.bills_mean_men
+msgid "Bills"
+msgstr "فواتير البائع"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.bills_materal_mean_menu
+msgid "Bills of Materils"
+msgstr "فواتير المواد"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__camel_id
+msgid "Camel"
+msgstr "إبل"
+
+#. module: shaheen_modern
+#: model:ir.model.fields.selection,name:shaheen_modern.selection__table_daily__method_py__cash
+msgid "Cash"
+msgstr "نقدا"
+
+#. module: shaheen_modern
+#: model:ir.actions.act_window,name:shaheen_modern.action_cash_receipt_account
+msgid "Cash Receipt"
+msgstr "سند قبض"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.cash_recepits_mean_menu
+msgid "Cash Receipts"
+msgstr "سند قبض"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__bank_sd
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__bank
+msgid "Check"
+msgstr "شيك"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__numbers_bank
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__number_bank
+msgid "Check Number"
+msgstr "رقم الشيك"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_spare_part__comments_sp
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__comments
+msgid "Comments"
+msgstr "ملاحظات"
+
+#. module: shaheen_modern
+#: model:ir.model,name:shaheen_modern.model_res_partner
+msgid "Contact"
+msgstr "قائمة العملاء"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_spare_part__count_id
+msgid "Count"
+msgstr "العدد"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__cows_id
+msgid "Cow"
+msgstr "بقر"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__create_uid
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order__create_uid
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__create_uid
+#: model:ir.model.fields,field_description:shaheen_modern.field_shaheen_modern__create_uid
+#: model:ir.model.fields,field_description:shaheen_modern.field_spare_part__create_uid
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__create_uid
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_followup__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__create_date
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order__create_date
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__create_date
+#: model:ir.model.fields,field_description:shaheen_modern.field_shaheen_modern__create_date
+#: model:ir.model.fields,field_description:shaheen_modern.field_spare_part__create_date
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__create_date
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_followup__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.customers_mean_menu
+msgid "Customer Data"
+msgstr "بيانات العملاء"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.customer_invoice_mean_men
+#: model:ir.ui.menu,name:shaheen_modern.customer_mean_menu
+msgid "Customers"
+msgstr "قائمة العملاء"
+
+#. module: shaheen_modern
+#: model_terms:ir.ui.view,arch_db:shaheen_modern.table_followup_form
+msgid "Daily Follow Up"
+msgstr "متابعة االذبيح اليومي"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__date_t
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order__date_main
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__date
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_followup__date
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: shaheen_modern
+#: model_terms:ir.ui.view,arch_db:shaheen_modern.report_followup_daily
+msgid "Date :"
+msgstr "التاريخ"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_account_move__display_name
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__display_name
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order__display_name
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_request__display_name
+#: model:ir.model.fields,field_description:shaheen_modern.field_mrp_production__display_name
+#: model:ir.model.fields,field_description:shaheen_modern.field_purchase_order__display_name
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__display_name
+#: model:ir.model.fields,field_description:shaheen_modern.field_res_partner__display_name
+#: model:ir.model.fields,field_description:shaheen_modern.field_shaheen_modern__display_name
+#: model:ir.model.fields,field_description:shaheen_modern.field_spare_part__display_name
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__display_name
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_followup__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order__end_time
+msgid "End Time"
+msgstr "زمن الانتهاء"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order__Final_report
+msgid "Final Reports"
+msgstr "التقرير النهائي"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.daily_follow_mean_menu
+#: model:ir.ui.menu,name:shaheen_modern.daily_mean_menu
+msgid "Follow Sacrifice"
+msgstr "متابعة الذبيح"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.forcasted_manu_mean_men
+msgid "Forcasted Inventory"
+msgstr "المخزون المتوقع"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__goats_id
+msgid "Goat"
+msgstr "ماعز"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__recived_ids
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__recived_id
+msgid "I received from master"
+msgstr "إستلمت من السيد"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_account_move__id
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__id
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order__id
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_request__id
+#: model:ir.model.fields,field_description:shaheen_modern.field_mrp_production__id
+#: model:ir.model.fields,field_description:shaheen_modern.field_purchase_order__id
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__id
+#: model:ir.model.fields,field_description:shaheen_modern.field_res_partner__id
+#: model:ir.model.fields,field_description:shaheen_modern.field_shaheen_modern__id
+#: model:ir.model.fields,field_description:shaheen_modern.field_spare_part__id
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__id
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_followup__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__city
+msgid "Imported State"
+msgstr "الدولة المصدر إليها"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.inventory_mean_menu
+msgid "Inventory"
+msgstr "المخازن"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.Inventory_report_manu_mean_men
+msgid "Inventory Reports"
+msgstr "تقرير المخازن"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.invoice_cus_mean_men
+msgid "Invoices"
+msgstr "الفواتير"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.invoics_analysis_mean_men
+msgid "Invoices Analysis"
+msgstr "تحليل الفواتير"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.invoice_mean_menu
+msgid "Invoicing"
+msgstr "الفواتير"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__about_is
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__about_iss
+msgid "Is About"
+msgstr "عبارة عن"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order__job_num
+msgid "Job NO"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.model,name:shaheen_modern.model_account_move
+msgid "Journal Entry"
+msgstr "قيد اليومية"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_account_move____last_update
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt____last_update
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order____last_update
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_request____last_update
+#: model:ir.model.fields,field_description:shaheen_modern.field_mrp_production____last_update
+#: model:ir.model.fields,field_description:shaheen_modern.field_purchase_order____last_update
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account____last_update
+#: model:ir.model.fields,field_description:shaheen_modern.field_res_partner____last_update
+#: model:ir.model.fields,field_description:shaheen_modern.field_shaheen_modern____last_update
+#: model:ir.model.fields,field_description:shaheen_modern.field_spare_part____last_update
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily____last_update
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_followup____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__write_uid
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order__write_uid
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__write_uid
+#: model:ir.model.fields,field_description:shaheen_modern.field_shaheen_modern__write_uid
+#: model:ir.model.fields,field_description:shaheen_modern.field_spare_part__write_uid
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__write_uid
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_followup__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__write_date
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order__write_date
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__write_date
+#: model:ir.model.fields,field_description:shaheen_modern.field_shaheen_modern__write_date
+#: model:ir.model.fields,field_description:shaheen_modern.field_spare_part__write_date
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__write_date
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_followup__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.maintanace_mean_menu
+msgid "Maintenance"
+msgstr "الصيانة"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_spare_part__main_spare
+msgid "Maintenance Parts"
+msgstr "تقرير الصيانة"
+
+#. module: shaheen_modern
+#: model:ir.model,name:shaheen_modern.model_maintenance_request
+#: model:ir.ui.menu,name:shaheen_modern.maintenece_request_mean_men
+msgid "Maintenance Request"
+msgstr "طلب الصيانة"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.manufactors_mean_menu
+msgid "Manufacturing"
+msgstr "التصينع"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.manufacter_operation_mean_menu
+msgid "Manufacturing Operations"
+msgstr "عمليات التصنيع"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.manufacter_mean_menu
+msgid "Manufacturing Orders"
+msgstr "طلب تصنيع"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order__mission_id
+msgid "Mission"
+msgstr "المهام"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__name
+msgid "Name Of The Exporter"
+msgstr "إسم الجهة"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__on_banks
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__on_bank
+msgid "On Bank"
+msgstr "على بنك"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.operations_mean_menu
+msgid "Operations"
+msgstr "العمليات"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.operation_type_manu_mean_men
+msgid "Operations Type"
+msgstr "أنواع العمليات"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__sequences
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order__sequence
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__sequencess
+msgid "Order Refernece"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_request__seq_id
+msgid "Order Referneces"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.orders_mean_menu
+msgid "Orders"
+msgstr "الطلبات"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.overview_manu_mean_men
+msgid "Overview Inventory"
+msgstr "نظرة عامة على المخزن"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__method_py
+msgid "Pay Method"
+msgstr "طريقة الدفع"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__payment_date
+msgid "Payment Date"
+msgstr "تاريخ السداد"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.payment_mean_men
+#: model:ir.ui.menu,name:shaheen_modern.payment_vendor_mean_men
+msgid "Payments"
+msgstr "الدفعيات"
+
+#. module: shaheen_modern
+#: model:ir.model,name:shaheen_modern.model_mrp_production
+msgid "Production Order"
+msgstr "أمر الانتاج"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.prod_manu_mean_men
+#: model:ir.ui.menu,name:shaheen_modern.product_purchase_mean_menu
+msgid "Products"
+msgstr "المنتجات"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.product_cato_manu_mean_men
+msgid "Products Categories"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.prod_mean_men
+#: model:ir.ui.menu,name:shaheen_modern.products_varient_mean_menu
+msgid "Products Variants"
+msgstr "المنتجات"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.purchase_mean_menu
+msgid "Purchase"
+msgstr "معاملات الشراء"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.analysis_mean_men
+msgid "Purchase Analysis"
+msgstr "تحليل المشتريات"
+
+#. module: shaheen_modern
+#: model:ir.model,name:shaheen_modern.model_purchase_order
+msgid "Purchase Order"
+msgstr "أمر شراء"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.purchase_order_mean_men
+msgid "Purchase Orders"
+msgstr "أمر شراء"
+
+#. module: shaheen_modern
+#: model:ir.actions.act_window,name:shaheen_modern.action_receipts_account
+msgid "Receipt Account"
+msgstr "إيصال الصرف الداخلي"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.reciepts_mean_menu
+msgid "Receipts"
+msgstr "إيصالات"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__rec_ids
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__rec_id
+msgid "Received By"
+msgstr "توقيع المستلم"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.Report_purchase_mean_menu
+#: model:ir.ui.menu,name:shaheen_modern.report_invoice_mean_men
+#: model:ir.ui.menu,name:shaheen_modern.reporting_inve_mean_menu
+#: model:ir.ui.menu,name:shaheen_modern.reporting_man_mean_menu
+msgid "Reporting"
+msgstr "التقارير"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.report_manu_mean_men
+msgid "Reports Manufacturing Orders"
+msgstr "تقارير أمر الشراء"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.sales_mean_menu
+msgid "Services /Sales"
+msgstr "الخدمات/المبيعات"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.shaheen_modern_mean_menu
+msgid "Shaheen Modern"
+msgstr "مسلخ الخرطوم الصحافة"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__sheep_id
+msgid "Sheep"
+msgstr "ضان"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__shipping_time
+msgid "Shipping Time"
+msgstr "زمن الشحن"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order__spare_id
+msgid "Spare"
+msgstr "إسبير"
+
+#. module: shaheen_modern
+#: model_terms:ir.ui.view,arch_db:shaheen_modern.maintenence_order_form
+msgid "Spare Parts"
+msgstr "الاسبيرات"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_spare_part__spare_id
+msgid "Spareparts"
+msgstr "الاسبيرات"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order__start_time
+msgid "Start Time"
+msgstr "زمن البدء"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_followup__table_id
+msgid "Table Daily"
+msgstr "الجدول اليومي"
+
+#. module: shaheen_modern
+#: model:ir.actions.act_window,name:shaheen_modern.action_table_followup
+msgid "Table Followup"
+msgstr "جدول المتابعة"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__table_dail
+msgid "Table Id"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_followup__user_id
+msgid "Ticket Owner"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.unbuild_mean_menu
+msgid "Unbuild Orders"
+msgstr "أوامر الهدم"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.vendor_mean_men
+#: model:ir.ui.menu,name:shaheen_modern.vendors_mean_men
+msgid "Vendors"
+msgstr "البائع"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.warehouse_manu_mean_men
+msgid "Warehouse"
+msgstr "المخازن"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.warehouse_mang_mean_menu
+msgid "Warehouse Management"
+msgstr "إدراة المخازن"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.work_center_mean_menu
+msgid "Work Centers "
+msgstr "مراكز العمل"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.work_order_mean_menu
+msgid "Work Order"
+msgstr "أمر عمل"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__sing_of_cc
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__sing_of_ac
+msgid "accountant signature"
+msgstr "توقيع المحاسب"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_table_daily__agent_num
+msgid "agent Num"
+msgstr "رقم الوكيل"
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__cash_sd
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__cash
+msgid "cash"
+msgstr "نقدأ"
+
+#. module: shaheen_modern
+#: model:ir.model,name:shaheen_modern.model_cash_receipt
+msgid "cash.receipt"
+msgstr ""
+
+#. module: shaheen_modern
+#: model_terms:ir.actions.act_window,help:shaheen_modern.action_table_followup
+msgid "create your first daily follow up!"
+msgstr "قم بإنشاء أول جدول متابعة يومي"
+
+#. module: shaheen_modern
+#: model_terms:ir.actions.act_window,help:shaheen_modern.action_cash_receipt_account
+#: model_terms:ir.actions.act_window,help:shaheen_modern.action_receipts_account
+msgid "create your first receipt!"
+msgstr "قم بإنشاء اول سند قبض"
+
+#. module: shaheen_modern
+#: model_terms:ir.actions.act_window,help:shaheen_modern.action_maintenance_work
+msgid "create your first work order!"
+msgstr "قم بإنشاء أول أمر عمل"
+
+#. module: shaheen_modern
+#: model:ir.actions.act_window,name:shaheen_modern.action_maintenance_work
+msgid "maintenance order"
+msgstr "طلب الصيانة"
+
+#. module: shaheen_modern
+#: model:ir.model,name:shaheen_modern.model_maintenance_order
+msgid "maintenance.order"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.product_house_mean_menu
+#: model:ir.ui.menu,name:shaheen_modern.products_man_mean_menu
+msgid "products"
+msgstr "المنتجات"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.products_mean_menu
+msgid "products/services"
+msgstr "المنتجات/الخدمات"
+
+#. module: shaheen_modern
+#: model:ir.model,name:shaheen_modern.model_receipt_account
+msgid "receipt.account"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_maintenance_order__responsible_name
+msgid "responsilbe"
+msgstr "المسؤول"
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.sales_order_mean_menu
+msgid "sale/service order"
+msgstr "المبيعات/طلبات الخدمات"
+
+#. module: shaheen_modern
+#: model:ir.model,name:shaheen_modern.model_shaheen_modern
+msgid "shaheen.modern"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.model,name:shaheen_modern.model_spare_part
+msgid "spare.part"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.model,name:shaheen_modern.model_table_daily
+msgid "table.daily"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.model,name:shaheen_modern.model_table_followup
+msgid "table.followup"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.model.fields,field_description:shaheen_modern.field_cash_receipt__amount_ids
+#: model:ir.model.fields,field_description:shaheen_modern.field_receipt_account__amount_id
+msgid "المبلغ كتابه"
+msgstr ""
+
+#. module: shaheen_modern
+#: model:ir.ui.menu,name:shaheen_modern.cash_rec_mean_menu
+msgid "ايصال صرف داخلي"
+msgstr ""

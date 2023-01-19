@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<odoo>
+    <record id = "search_panel_product_template_search_view" model = "ir.ui.view"> 
+        <field name ="name">product.template.search.inherit.searchpanel </field> 
+        <field name ="model">product.template</field> 
+        <field name ="inherit_id" ref ="product.product_template_search_view"/> 
+        <field name ="arch" type="xml"> 
+            <xpath expr ="//search" position="inside"> 
+                <searchpanel> 
+                    <field name ="categ_id" icon="fa-users"/>
+                </searchpanel> 
+            </xpath> 
+        </field> 
+    </record> 
+
+
+    <record id="view_res_partner_form" model="ir.ui.view">
+        <field name="name">Res Partner</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='vat']" position="attributes">
+                <attribute name="invisible">1</attribute>          
+            </xpath>
+
+            <xpath expr="//field[@name='category_id']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+
+            <xpath expr="//field[@name='title']" position="attributes">
+                <attribute name="invisible">1</attribute>          
+            </xpath>
+
+            <xpath expr="//field[@name='website']" position="attributes">
+                <attribute name="invisible">1</attribute>          
+            </xpath>
+
+<!--             <xpath expr="//field[@name='phone']" position="before">
+                <field name="personal"/>
+            </xpath>
+ -->
+             
+
+        </field>
+    </record>
+
+    <record id="view_partner_form_shaheen_modern" model="ir.ui.view">
+        <field name="name">res.partner.shaheen_modern</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_tree"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//field[@name='activity_ids']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+
+            <xpath expr="//field[@name='user_id']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+        </field>
+    </record>
+
+
+<!--     <record id="mrp_production_Inherit" model="ir.ui.view">
+        <field name="name">mrp.production.inherit</field>
+        <field name="model">mrp.production</field>
+        <field name="mode">primary</field>
+        <field name="priority" eval="20"/>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+
+        </field>
+
+    </record>
+ -->
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+</odoo>
+
+               

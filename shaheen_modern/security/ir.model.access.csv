@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_table_followup,acecss.table.followup,model_table_followup,,1,1,1,1
+access_table_daily,access.table.daily,model_table_daily,,1,1,1,1
+access_maintenance_order,access.maintenance.order,model_maintenance_order,,1,1,1,1
+access_spare_part,access.spare.part,model_spare_part,,1,1,1,1
+access_receipt_account,access.receipt.account,model_receipt_account,,1,1,1,1
+access_cash_receipt,access.cash.receipt,model_cash_receipt,,1,1,1,1

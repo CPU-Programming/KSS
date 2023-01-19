@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<odoo>
+
+	       <!-- action_table_followup -->
+
+
+    <record id="action_table_followup" model="ir.actions.act_window">
+        <field name="name">Table Followup</field>
+        <field name="res_model">table.followup</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+        	<p class="o_view_nocontent_smilling_face">
+        		create your first daily follow up!
+        	</p>
+        </field>
+    </record>
+
+        <!-- list_daily_follwup -->
+
+    <record model="ir.ui.view" id="table_followup_list_view">
+        <field name="name">table.followup.list</field>
+        <field name="model">table.followup</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="date"/>
+                <field name="user_id"/>
+            </tree>
+        </field>
+    </record> 
+
+        <!-- form_view_daily_followup -->
+
+    <record id="table_followup_form" model="ir.ui.view">
+        <field name="name">table.followup.form</field>
+        <field name="model">table.followup</field>
+        <field name="arch" type="xml">
+            <form>
+               <!--  -->
+
+                        <notebook>
+                            <page string='Daily Follow Up'>
+                                <field name="table_id">
+                                    <tree editable="bottom">
+                                        <field name="name"/>
+                                        <field name="city"/>
+                                        <field name="shipping_time"/>
+                                        <field name="sheep_id"/>
+                                        <field name="goats_id"/>
+                                        <field name="cows_id"/>
+                                        <field name="camel_id"/>
+                                        <field name="method_py"/>
+                                        <field name="payment_date"/>
+                                        <field name="agent_id"/>
+                                        <field name="comments"/>
+                                        <field name="table_dail" invisible="1"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+
+                        
+                            <group>
+                                <group>
+                                    <field name="user_id"/>
+                                </group>
+                                <group>
+                                    <field name="date"/>
+                                </group>
+                            </group>
+                        
+
+            </form>
+        </field>
+    </record>
+</odoo>

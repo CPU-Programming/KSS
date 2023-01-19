@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+
+
+	<template id="report_followup_daily">
+		<t t-call="web.html_container">
+			<t t-foreach="docs" t-as="o">
+				<t t-call="web.external_layout">
+					<div class="page">
+						<div style = "position:relative; left:10px; top:50px">
+							<h5><strong>Date : <span t-field="o.date"/></strong></h5>
+					    </div>
+					    <div class="container">
+					    	<t t-if="o.table_id">
+					    		<hr style="margin:20px; margin-top:o;">
+					    			<div style = " left:10px; top:20px; text-align:center">
+					    				<h3><span>جدول متابعه الذبيح اليومي</span></h3>
+					    			</div>
+					    		</hr>
+					    		<hr>
+					    			<table class="table table-sm o_main_table" name="Daily Follow Up" style="margin:20px;">
+
+
+					    				<thead>
+					    					<tr style="padding:20px; ">
+					    						<th name="name" class="text-left" style="padding:20px;  border: 1px solid #ddd;">
+					    							<span>Name Of The Exporter</span>
+												</th>
+
+					    						<th name="city" class="text-left" style="padding:20px;  border: 1px solid #ddd;">
+					    							<span>Imported State</span>
+												</th>
+
+					    						<th name="shipping_time" class="text-left" style="padding:20px;  border: 1px solid #ddd;">
+					    							<span>Shipping Time</span>
+												</th>
+												<th name="sheep_id" class="text-left" style="padding:20px;  border: 1px solid #ddd;">
+					    							<span>Sheep</span>
+												</th>
+												<th name="goats_id" class="text-left" style="padding:20px;  border: 1px solid #ddd;">
+					    							<span>Goats</span>
+												</th>
+												<th name="cows_id" class="text-left" style="padding:20px;  border: 1px solid #ddd;">
+					    							<span>Cows</span>
+												</th>
+												<th name="camel_id" class="text-left" style="padding:20px;  border: 1px solid #ddd;">
+					    							<span>Camel</span>
+												</th>
+												<!-- <th name="method" class="text-left">
+					    							<span>Payments Method</span>
+												</th> -->
+												<th name="payment_date" class="text-left" style="padding:20px;  border: 1px solid #ddd;">
+					    							<span>Payment Date</span>
+												</th>
+												<th name="agent_id" class="text-left" style="padding:20px;  border: 1px solid #ddd;">
+					    							<span>Agent</span>
+												</th>
+												<th name="comments" class="text-left" style="padding:20px;  border: 1px solid #ddd;">
+					    							<span>Comments</span>
+												</th>
+
+												<t t-foreach="o.table_id" t-as="line" style="padding:20px;  border: 1px solid #ddd;">
+													<tr>
+														<td style="padding:20px;  border: 1px solid #ddd;">
+															<span t-field="line.name"/>
+														</td>
+														<td style="padding:20px;  border: 1px solid #ddd;">
+															<span t-field="line.city"/>
+														</td>
+														<td style="padding:20px;  border: 1px solid #ddd;">
+															<span t-field="line.sheep_id"/>
+														</td >
+														<td style="padding:20px;  border: 1px solid #ddd;">
+															<span t-field="line.goats_id"/>
+														</td>
+														<td style="padding:20px;  border: 1px solid #ddd;">
+															<span t-field="line.cows_id"/>
+														</td>
+														<td style="padding:20px;  border: 1px solid #ddd;">
+															<span t-field="line.camel_id"/>
+														</td>
+														<!-- <td>
+															<span t-field="line.method"/>
+														</td> -->
+														<td style="padding:20px;  border: 1px solid #ddd;">
+															<span t-field="line.payment_date"/>
+														</td>
+														<td style="padding:20px;  border: 1px solid #ddd;">
+															<span t-field="line.agent_id"/>
+														</td>
+													</tr>
+												</t>
+											</tr>
+										</thead>
+									</table>
+								</hr>
+					    	</t>
+					    </div>
+					</div>
+				</t>
+			</t>
+		</t>
+	</template>
+
+</odoo>

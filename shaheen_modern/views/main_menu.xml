@@ -1,0 +1,417 @@
+<odoo>
+
+    <!-- Module Menu -->
+
+    <menuitem
+            id="shaheen_modern_mean_menu"
+            sequence="0"
+            name="Shaheen Modern"
+    />
+
+
+    <menuitem
+            id="customer_mean_menu"
+            sequence="1"
+            name="Customers"
+            parent="shaheen_modern_mean_menu"/>
+
+
+    <menuitem
+            id="customers_mean_menu"
+            sequence="2"
+            name="Customer Data"
+            parent="customer_mean_menu"
+            action="contacts.action_contacts"
+    />
+
+
+    <menuitem
+            id="inventory_mean_menu"
+            sequence="5"
+            name="Inventory"
+            parent="shaheen_modern_mean_menu"/>
+
+    <menuitem
+            id="overview_manu_mean_men"
+            sequence="1"
+            name="Overview Inventory"
+            parent="inventory_mean_menu"
+            action="stock.stock_picking_type_action"
+    />
+    <menuitem
+            id="warehouse_mang_mean_menu"
+            sequence="2"
+            name="Warehouse Management"
+            parent="inventory_mean_menu"/>
+
+    <menuitem
+            id="warehouse_manu_mean_men"
+            sequence="1"
+            name="Warehouse"
+            parent="warehouse_mang_mean_menu"
+            action="stock.action_warehouse_form"
+    />
+
+    <menuitem
+            id="operation_type_manu_mean_men"
+            sequence="2"
+            name="Operations Type"
+            parent="warehouse_mang_mean_menu"
+            action="stock.action_picking_type_list"
+    />
+
+    <menuitem
+            id="product_house_mean_menu"
+            sequence="3"
+            name="products"
+            parent="inventory_mean_menu"/>
+
+    <!-- <menuitem
+       id="product_cato_manu_mean_men"
+       sequence="2"
+       name="Products Categories"
+       parent="product_house_mean_menu"
+       action="product.product_category_action_form"
+       /> -->
+
+    <menuitem
+            id="prod_manu_mean_men"
+            sequence="1"
+            name="Products"
+            parent="product_house_mean_menu"
+            action="stock.product_template_action_product"
+    />
+
+    <menuitem
+            id="reporting_inve_mean_menu"
+            sequence="4"
+            name="Reporting"
+            parent="inventory_mean_menu"/>
+
+    <menuitem
+            id="Inventory_report_manu_mean_men"
+            sequence="1"
+            name="Inventory Reports"
+            parent="reporting_inve_mean_menu"
+            action="stock.dashboard_open_quants"
+    />
+
+    <menuitem
+            id="forcasted_manu_mean_men"
+            sequence="2"
+            name="Forcasted Inventory"
+            parent="reporting_inve_mean_menu"
+            action="stock.report_stock_quantity_action"
+    />
+
+    <menuitem
+            id="purchase_mean_menu"
+            sequence="6"
+            name="Purchase"
+            parent="shaheen_modern_mean_menu"/>
+
+    <menuitem
+            id="orders_mean_menu"
+            sequence="1"
+            name="Orders"
+            parent="purchase_mean_menu"/>
+
+    <!--  <menuitem
+        id="request_quations_mean_men"
+        sequence="1"
+        name="Request For Quotations"
+        parent="orders_mean_menu"
+        action="purchase.purchase_rfq"
+        /> -->
+
+
+    <menuitem
+            id="purchase_order_mean_men"
+            sequence="2"
+            name="Purchase Orders"
+            parent="orders_mean_menu"
+            action="purchase.purchase_form_action"
+    />
+
+    <menuitem
+            id="vendor_mean_men"
+            sequence="3"
+            name="Vendors"
+            parent="orders_mean_menu"
+            action="account.res_partner_action_supplier"
+    />
+
+    <menuitem
+            id="product_purchase_mean_menu"
+            sequence="2"
+            name="Products"
+            parent="purchase_mean_menu"/>
+
+    <menuitem
+            id="prod_mean_men"
+            sequence="1"
+            name="Products Variants"
+            parent="product_purchase_mean_menu"
+            action="purchase.product_product_action"
+    />
+
+
+    <menuitem
+            id="Report_purchase_mean_menu"
+            sequence="3"
+            name="Reporting"
+            parent="purchase_mean_menu"/>
+
+
+    <menuitem
+            id="analysis_mean_men"
+            sequence="1"
+            name="Purchase Analysis"
+            parent="Report_purchase_mean_menu"
+            action="purchase.action_purchase_order_report_all"
+    />
+
+
+    <menuitem
+            id="invoice_mean_menu"
+            sequence="7"
+            name="Invoicing"
+            parent="shaheen_modern_mean_menu"/>
+
+
+    <menuitem
+            id="customer_invoice_mean_men"
+            sequence="1"
+            name="Customers"
+            parent="invoice_mean_menu"
+    />
+
+    <menuitem
+            id="invoice_cus_mean_men"
+            sequence="1"
+            name="Invoices"
+            parent="customer_invoice_mean_men"
+            action="account.action_move_out_invoice_type"
+    />
+
+    <menuitem
+            id="payment_mean_men"
+            sequence="2"
+            name="Payments"
+            parent="customer_invoice_mean_men"
+            action="account.action_account_payments"
+    />
+
+    <menuitem
+            id="vendors_mean_men"
+            sequence="2"
+            name="Vendors"
+            parent="invoice_mean_menu"
+    />
+
+    <menuitem
+            id="bills_mean_men"
+            sequence="1"
+            name="Bills"
+            parent="vendors_mean_men"
+            action="account.action_move_in_invoice_type"
+    />
+
+    <menuitem
+            id="payment_vendor_mean_men"
+            sequence="2"
+            name="Payments"
+            parent="vendors_mean_men"
+            action="account.action_account_payments_payable"
+    />
+
+    <menuitem
+            id="report_invoice_mean_men"
+            sequence="3"
+            name="Reporting"
+            parent="invoice_mean_menu"
+    />
+
+    <menuitem
+            id="invoics_analysis_mean_men"
+            sequence="1"
+            name="Invoices Analysis"
+            parent="report_invoice_mean_men"
+            action="account.action_account_invoice_report_all"
+    />
+
+    <menuitem
+            id="maintanace_mean_menu"
+            sequence="8"
+            name="Maintenance"
+            parent="shaheen_modern_mean_menu"/>
+
+
+    <menuitem
+            id="maintenece_request_mean_men"
+            sequence="1"
+            name="Maintenance Request"
+            parent="maintanace_mean_menu"
+            action="maintenance.hr_equipment_request_action"
+    />
+
+    <menuitem
+            id="work_order_mean_menu"
+            sequence="2"
+            name="Work Order"
+            parent="maintanace_mean_menu"
+            action="action_maintenance_work"
+    />
+
+
+    <menuitem
+            id="manufactors_mean_menu"
+            sequence="4"
+            name="Manufacturing"
+            parent="shaheen_modern_mean_menu"/>
+
+    <menuitem
+            id="operations_mean_menu"
+            sequence="1"
+            name="Operations"
+            parent="manufactors_mean_menu"/>
+
+    <menuitem
+            id="products_man_mean_menu"
+            sequence="2"
+            name="products"
+            parent="manufactors_mean_menu"/>
+
+    <menuitem
+            id="reporting_man_mean_menu"
+            sequence="3"
+            name="Reporting"
+            parent="manufactors_mean_menu"/>
+
+
+    <menuitem
+            id="report_manu_mean_men"
+            sequence="1"
+            name="Reports Manufacturing Orders"
+            parent="reporting_man_mean_menu"
+            action="mrp.mrp_production_report"
+    />
+
+
+    <menuitem
+            id="products_varient_mean_menu"
+            sequence="1"
+            name="Products Variants"
+            parent="products_man_mean_menu"
+            action="mrp.product_template_action"
+    />
+
+    <menuitem
+            id="bills_materal_mean_menu"
+            sequence="2"
+            name="Bills of Materils"
+            parent="products_man_mean_menu"
+            action="mrp.mrp_bom_form_action"
+    />
+
+
+    <menuitem
+            id="manufacter_mean_menu"
+            sequence="1"
+            name="Manufacturing Orders"
+            parent="operations_mean_menu"
+            action="mrp.mrp_production_action"/>
+
+
+    <menuitem
+            id="manufacter_operation_mean_menu"
+            sequence="3"
+            name="Manufacturing Operations"
+            parent="operations_mean_menu"
+            action="mrp.mrp_routing_action"/>
+
+    <menuitem
+            id="work_center_mean_menu"
+            sequence="4"
+            name="Work Centers "
+            parent="operations_mean_menu"
+            action="mrp.mrp_workcenter_action"/>
+
+
+    <menuitem
+            id="unbuild_mean_menu"
+            sequence="2"
+            name="Unbuild Orders"
+            parent="operations_mean_menu"
+            action="mrp.mrp_unbuild"
+    />
+
+    <menuitem
+            id="daily_mean_menu"
+            sequence="3"
+            name="Follow Sacrifice"
+            parent="shaheen_modern_mean_menu"/>
+
+
+    <menuitem
+            id="sales_mean_menu"
+            sequence="2"
+            name="Services /Sales"
+            parent="shaheen_modern_mean_menu"/>
+
+
+    <menuitem
+            id="daily_follow_mean_menu"
+            sequence="1"
+            name="Follow Sacrifice"
+            parent="daily_mean_menu"
+            action="action_table_followup"/>
+
+
+    <!--          <menuitem
+                id="product_mean_menu"
+                sequence="2"
+                name="Products/services"
+                parent="shaheen_modern_mean_menu"
+                action="sale.product_template_action"
+                />
+     -->
+    <menuitem
+            id="products_mean_menu"
+            sequence="1"
+            name="products/services"
+            parent="sales_mean_menu"
+            action="sale.product_template_action"
+    />
+
+    <menuitem
+            id="sales_order_mean_menu"
+            sequence="2"
+            name="sale/service order"
+            parent="sales_mean_menu"
+            action="sale.action_orders"
+    />
+
+
+    <menuitem
+            id="reciepts_mean_menu"
+            sequence="9"
+            name="Receipts"
+            parent="shaheen_modern_mean_menu"/>
+
+
+    <menuitem
+            id="cash_rec_mean_menu"
+            sequence="1"
+            name="ايصال صرف داخلي"
+            parent="reciepts_mean_menu"
+            action="action_receipts_account"/>
+
+
+    <menuitem
+            id="cash_recepits_mean_menu"
+            sequence="2"
+            name="Cash Receipts"
+            parent="reciepts_mean_menu"
+            action="action_cash_receipt_account"/>
+</odoo>
