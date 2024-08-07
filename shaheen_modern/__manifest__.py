@@ -45,5 +45,6 @@
     'installable': True,
     'application': True,
     'auto_install': True,  # edited
+    'license': 'LGPL-3'
 
 }
