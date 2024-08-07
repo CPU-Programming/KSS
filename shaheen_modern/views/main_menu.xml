@@ -376,13 +376,13 @@
                 action="sale.product_template_action"
                 />
      -->
-    <!-- <menuitem
+    <menuitem
             id="products_mean_menu"
             sequence="1"
             name="products/services"
             parent="sales_mean_menu"
             action="sale.product_template_action"
-    /> -->
+    />
 
     <menuitem
             id="sales_order_mean_menu"
