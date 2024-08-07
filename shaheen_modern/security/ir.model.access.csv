@@ -5,3 +5,4 @@ access_maintenance_order,access.maintenance.order,model_maintenance_order,,1,1,1
 access_spare_part,access.spare.part,model_spare_part,,1,1,1,1
 access_receipt_account,access.receipt.account,model_receipt_account,,1,1,1,1
 access_cash_receipt,access.cash.receipt,model_cash_receipt,,1,1,1,1
+access_shaheen_modern,access_shaheen_modern,model_shaheen_modern,,1,1,1,1

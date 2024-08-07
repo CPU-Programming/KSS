@@ -19,10 +19,12 @@ class invoice(models.Model):
 class maintenan(models.Model):
     _inherit='maintenance.request'
 
-    seq_id     =fields.Char(string='Order Referneces',required=True)
+    # seq_id     =fields.Char(string='Order Referneces',required=True)
+    seq_id = fields.Char(string='Order Referneces')
 
 class Receipt(models.Model):
     _name='receipt.account'
+    _description='receipt.account'
     _rec_name='sequencess'
 
 
@@ -46,6 +48,7 @@ class Receipt(models.Model):
 
 class CashReeipt(models.Model):
     _name='cash.receipt'
+    _description='cash.receipt'
     _rec_name='sequences'
 
     sequences             =fields.Char('Sequence', copy=False, readonly=True)
@@ -79,6 +82,7 @@ class TableFollowup(models.Model):
 
 class TableDaily(models.Model):
     _name='table.daily'
+    _description='table.daily'
 
     name                  = fields.Char('Name Of The Exporter')
     city                  = fields.Char('Imported State')
@@ -97,6 +101,7 @@ class TableDaily(models.Model):
 
 class MaintenanceOrder(models.Model):
     _name='maintenance.order'
+    _description='maintenance.order'
 
     # state            = fields.Selection([
     #     ('draft','Draft'),
@@ -161,6 +166,7 @@ class MaintenanceOrder(models.Model):
 
 class sparepart(models.Model):
     _name='spare.part'
+    _description = 'spare.parts'
 
     spare_id           =fields.Many2one('maintenance.equipment',string='Spareparts')
     count_id           =fields.Integer('Count')
