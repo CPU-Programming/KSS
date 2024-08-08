@@ -96,13 +96,25 @@
             action="stock.dashboard_open_quants"
     />
 
-    <menuitem
-            id="forcasted_manu_mean_men"
-            sequence="2"
-            name="Forcasted Inventory"
-            parent="reporting_inve_mean_menu"
-            action="stock.report_stock_quantity_action"
-    />
+<!-- Odoo 16 -->
+        <menuitem
+                id="forcasted_manu_mean_men"
+                sequence="2"
+                name="Forcasted Inventory"
+                parent="reporting_inve_mean_menu"
+                action="stock.action_product_stock_view"
+
+        />
+<!-- Odoo 15 -->
+        <!-- <menuitem
+                id="forcasted_manu_mean_men"
+                sequence="2"
+                name="Forcasted Inventory"
+                parent="reporting_inve_mean_menu"
+                action="stock.report_stock_quantity_action"  
+        /> -->
+
+
 
     <menuitem
             id="purchase_mean_menu"
